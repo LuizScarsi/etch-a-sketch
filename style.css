@@ -1,0 +1,16 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 401.6px; /*why it has to be this width?*/
+    height: auto;
+    margin: auto;
+    
+}
+
+div {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    flex: 1 1 auto;
+}
