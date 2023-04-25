@@ -1,16 +1,20 @@
 .grid {
     display: flex;
     flex-wrap: wrap;
-    width: 401.6px; /*why it has to be this width?*/
-    height: auto;
+    width: 700px;
+    height: 700px;
     margin: auto;
-    
+    flex: 1 1 auto;
+    border: 1px solid black;
+    overflow: hidden;
 }
 
-div {
-    width: 25px;
-    height: 25px;
+.square {
     border: 1px solid black;
     box-sizing: border-box;
     flex: 1 1 auto;
+}
+
+.colored {
+    background-color: rgb(87, 0, 87);
 }
