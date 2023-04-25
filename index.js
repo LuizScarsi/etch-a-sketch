@@ -33,6 +33,10 @@ function changeColor(div) {
 const button = document.querySelector('button');
 button.addEventListener('click', () => {
     let gridSide = +(prompt('Enter the number of squares per side'));
-    let gridArea = gridSide*gridSide;
-    createGrid(gridArea, gridSide);
+    if (gridSide>100){
+        alert('ERROR! The limit is 100 squares per side');
+    } else {
+        let gridArea = gridSide*gridSide;
+        createGrid(gridArea, gridSide);
+    }
 });
