@@ -5,8 +5,18 @@
     height: 700px;
     margin: auto;
     flex: 1 1 auto;
-    border: 1px solid black;
+    border: 6px solid rgb(231, 29, 54);
+    border-radius: 6px;
+    box-shadow: 6px 6px 8px rgb(48, 7, 12);
     overflow: hidden;
+}
+
+button {
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid rgb(46, 196, 182);
+    border-radius: 8px;
+    padding: 12px;
 }
 
 .square {
@@ -17,4 +27,8 @@
 
 .colored {
     background-color: rgb(87, 0, 87);
+}
+
+body {
+    background-color: rgb(253, 255, 252);
 }
